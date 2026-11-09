@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { -webkit-tap-highlight-color: transparent; }
+body { background: #f6f1e9; color: #1c1917; }
+@media print {
+  .no-print { display: none !important; }
+  body { background: white; }
+  @page { size: A4; margin: 14mm; }
+}
